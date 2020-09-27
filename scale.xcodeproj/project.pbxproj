@@ -11,7 +11,40 @@
 		DE9A63E9252033B3007E3256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A63E8252033B3007E3256 /* ContentView.swift */; };
 		DE9A63EB252033B7007E3256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9A63EA252033B7007E3256 /* Assets.xcassets */; };
 		DE9A63EE252033B7007E3256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9A63ED252033B7007E3256 /* Preview Assets.xcassets */; };
+		DE9A63FD2520344D007E3256 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A63FC2520344C007E3256 /* WidgetKit.framework */; };
+		DE9A63FF2520344D007E3256 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9A63FE2520344D007E3256 /* SwiftUI.framework */; };
+		DE9A64022520344D007E3256 /* scaleW.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A64012520344D007E3256 /* scaleW.swift */; };
+		DE9A64052520345E007E3256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9A64042520345E007E3256 /* Assets.xcassets */; };
+		DE9A64072520345E007E3256 /* scaleW.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DE9A64032520344D007E3256 /* scaleW.intentdefinition */; };
+		DE9A64082520345E007E3256 /* scaleW.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DE9A64032520344D007E3256 /* scaleW.intentdefinition */; };
+		DE9A640B2520345E007E3256 /* scaleWExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE9A63FA2520344C007E3256 /* scaleWExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE9A6413252036CA007E3256 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A6412252036CA007E3256 /* WidgetView.swift */; };
+		DE9A6414252036CA007E3256 /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9A6412252036CA007E3256 /* WidgetView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE9A64092520345E007E3256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9A63DB252033B3007E3256 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9A63F92520344C007E3256;
+			remoteInfo = scaleWExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE9A640F2520345E007E3256 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE9A640B2520345E007E3256 /* scaleWExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DE9A63E3252033B3007E3256 /* scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scale.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +53,14 @@
 		DE9A63EA252033B7007E3256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9A63ED252033B7007E3256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE9A63EF252033B7007E3256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9A63FA2520344C007E3256 /* scaleWExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = scaleWExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9A63FC2520344C007E3256 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DE9A63FE2520344D007E3256 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DE9A64012520344D007E3256 /* scaleW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scaleW.swift; sourceTree = "<group>"; };
+		DE9A64032520344D007E3256 /* scaleW.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = scaleW.intentdefinition; sourceTree = "<group>"; };
+		DE9A64042520345E007E3256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE9A64062520345E007E3256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9A6412252036CA007E3256 /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE9A63F72520344C007E3256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9A63FF2520344D007E3256 /* SwiftUI.framework in Frameworks */,
+				DE9A63FD2520344D007E3256 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				DE9A63E5252033B3007E3256 /* scale */,
+				DE9A64002520344D007E3256 /* scaleW */,
+				DE9A63FB2520344C007E3256 /* Frameworks */,
 				DE9A63E4252033B3007E3256 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				DE9A63E3252033B3007E3256 /* scale.app */,
+				DE9A63FA2520344C007E3256 /* scaleWExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +122,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DE9A63FB2520344C007E3256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE9A63FC2520344C007E3256 /* WidgetKit.framework */,
+				DE9A63FE2520344D007E3256 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9A64002520344D007E3256 /* scaleW */ = {
+			isa = PBXGroup;
+			children = (
+				DE9A64012520344D007E3256 /* scaleW.swift */,
+				DE9A6412252036CA007E3256 /* WidgetView.swift */,
+				DE9A64032520344D007E3256 /* scaleW.intentdefinition */,
+				DE9A64042520345E007E3256 /* Assets.xcassets */,
+				DE9A64062520345E007E3256 /* Info.plist */,
+			);
+			path = scaleW;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +153,34 @@
 				DE9A63DF252033B3007E3256 /* Sources */,
 				DE9A63E0252033B3007E3256 /* Frameworks */,
 				DE9A63E1252033B3007E3256 /* Resources */,
+				DE9A640F2520345E007E3256 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DE9A640A2520345E007E3256 /* PBXTargetDependency */,
 			);
 			name = scale;
 			productName = scale;
 			productReference = DE9A63E3252033B3007E3256 /* scale.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DE9A63F92520344C007E3256 /* scaleWExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9A640C2520345E007E3256 /* Build configuration list for PBXNativeTarget "scaleWExtension" */;
+			buildPhases = (
+				DE9A63F62520344C007E3256 /* Sources */,
+				DE9A63F72520344C007E3256 /* Frameworks */,
+				DE9A63F82520344C007E3256 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scaleWExtension;
+			productName = scaleWExtension;
+			productReference = DE9A63FA2520344C007E3256 /* scaleWExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +192,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					DE9A63E2252033B3007E3256 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DE9A63F92520344C007E3256 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -117,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				DE9A63E2252033B3007E3256 /* scale */,
+				DE9A63F92520344C007E3256 /* scaleWExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +228,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE9A63F82520344C007E3256 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9A64052520345E007E3256 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,11 +244,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9A63E9252033B3007E3256 /* ContentView.swift in Sources */,
+				DE9A64082520345E007E3256 /* scaleW.intentdefinition in Sources */,
+				DE9A6413252036CA007E3256 /* WidgetView.swift in Sources */,
 				DE9A63E7252033B3007E3256 /* scaleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE9A63F62520344C007E3256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9A6414252036CA007E3256 /* WidgetView.swift in Sources */,
+				DE9A64022520344D007E3256 /* scaleW.swift in Sources */,
+				DE9A64072520345E007E3256 /* scaleW.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9A640A2520345E007E3256 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9A63F92520344C007E3256 /* scaleWExtension */;
+			targetProxy = DE9A64092520345E007E3256 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DE9A63F0252033B7007E3256 /* Debug */ = {
@@ -265,6 +390,7 @@
 		DE9A63F3252033B7007E3256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +412,7 @@
 		DE9A63F4252033B7007E3256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +426,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sock.scale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE9A640D2520345E007E3256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = scaleW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sock.scale.scaleW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE9A640E2520345E007E3256 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = scaleW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sock.scale.scaleW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,6 +488,15 @@
 			buildConfigurations = (
 				DE9A63F3252033B7007E3256 /* Debug */,
 				DE9A63F4252033B7007E3256 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9A640C2520345E007E3256 /* Build configuration list for PBXNativeTarget "scaleWExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9A640D2520345E007E3256 /* Debug */,
+				DE9A640E2520345E007E3256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
